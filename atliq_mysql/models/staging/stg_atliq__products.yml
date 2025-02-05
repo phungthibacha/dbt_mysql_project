@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: stg_atliq__products
+    description: "All Atliq products"
+    columns:
+      - name: product_code
+        data_type: varchar(255)
+        description: "Product primary key"
+
+      - name: division
+        data_type: varchar(255)
+        description: "Division"
+
+      - name: segment
+        data_type: varchar(255)
+        description: "Segment"
+
+      - name: category
+        data_type: varchar(255)
+        description: "Category of product"
+
+      - name: product
+        data_type: varchar(255)
+        description: "Product name"
+
+      - name: variant
+        data_type: varchar(255)
+        description: "Variant"

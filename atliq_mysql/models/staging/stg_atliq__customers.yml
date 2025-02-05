@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: stg_atliq__customers
+    description: "View of customers raw data"
+    columns:
+      - name: customer_code
+        data_type: varchar(255)
+        description: "Customer primary key"
+
+      - name: customer
+        data_type: varchar(255)
+        description: "Customer name"
+
+      - name: market
+        data_type: varchar(255)
+        description: "Market that customer belong to"
+
+      - name: platform
+        data_type: varchar(255)
+        description: "Platform that customer belong to"
+
+      - name: channel
+        data_type: varchar(255)
+        description: "Channel that customer belong to"

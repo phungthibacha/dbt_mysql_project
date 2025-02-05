@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_atliq__markets
+    description: "All information about Atliq market"
+    columns:
+      - name: market
+        data_type: varchar(255)
+        description: "Market name"
+
+      - name: sub_zone
+        data_type: varchar(255)
+        description: "Sub zone that market belong to"
+
+      - name: region
+        data_type: varchar(255)
+        description: "Region that market belong to"

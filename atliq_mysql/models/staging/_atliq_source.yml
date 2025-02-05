@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: atliq_data 
+    schema: atliq_data  
+    tables:
+      - name: customers
+        description: "Atliq customers information: Customer name, Market, Platform and Channel they belong"
+      - name: markets
+        description: "Market - Subzone - Region the market belong"
+      - name: products
+        description: "All products of Aliq"
+      - name: monthly_transactions
+        description: "Monthly transactions of each Atliq customers"

@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: stg_atliq__monthly_trans
+    description: "Monthly transaction of Atliq customer"
+    columns:
+      - name: date
+        data_type: date
+        description: "Monthly timestamp of each transaction"
+
+      - name: product_code
+        data_type: varchar(255)
+        description: "Product code - linked with products table"
+
+      - name: customer_code
+        data_type: varchar(255)
+        description: "Customer code - linked with customers table"
+
+      - name: sold_quantity
+        data_type: int
+        description: "Number of sold quantity for each transaction"
